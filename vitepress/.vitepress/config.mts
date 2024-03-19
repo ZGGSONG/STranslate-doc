@@ -5,6 +5,7 @@ import { zhConfig } from "./lang/zh";
 export default defineConfig({
   title: "STranslate",
   description: "WPF 开发的一款即开即用、即用即走的翻译(OCR)工具",
+  head: [["link", { rel: "icon", type: "image/x-icon", href: "/logo/favicon.ico" }]],
   themeConfig: {
     logo: "/logo/logo.svg",
     siteTitle: "STranslate",
