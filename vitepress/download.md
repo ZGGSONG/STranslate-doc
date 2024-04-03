@@ -6,6 +6,7 @@ editLink: false
 ---
 
 <script setup>
+import { ref,computed } from 'vue'
 import axios from 'axios'
 
 const version = '1.0.8.313'
@@ -13,13 +14,12 @@ const version = '1.0.8.313'
 const ghproxy = 'https://mirror.ghproxy.com/'
 
 const download = (type, param)=>{
-    const proxy = ''
-    const url = ''
+    var proxy = ''
+    var url = ''
     if (type === '1')
         proxy = ghproxy
     else
         proxy = ''
-
 
     if (param === 'runtime')
         url = `${proxy}https://github.com/ZGGSONG/STranslate/releases/download/${version}/STranslate_${version}_win-x64.zip`
@@ -30,6 +30,7 @@ const download = (type, param)=>{
     else if (param === '123')
         url = 'https://www.123pan.com/s/AxlRjv-OuVmA.html'
     
+    console.log('url:' + url)
     open(url)
 }
 </script>
