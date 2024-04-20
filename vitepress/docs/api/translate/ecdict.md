@@ -1,4 +1,4 @@
 ---
 title: STranslate
-titleTemplate: 阿里翻译
+titleTemplate: 简明英汉词典
 ---

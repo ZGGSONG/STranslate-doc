@@ -1,6 +1,6 @@
 ---
 title: STranslate
-titleTemplate: 服务设置
+titleTemplate: 翻译设置
 ---
 
 # 服务设置

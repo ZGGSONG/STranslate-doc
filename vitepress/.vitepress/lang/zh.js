@@ -26,9 +26,12 @@ export const zhConfig = {
               items: [
                 { text: "常规设置", link: "/docs/config/common" },
                 { text: "热键设置", link: "/docs/config/hotkey" },
-                { text: "服务设置", link: "/docs/config/service" },
+                { text: "翻译设置", link: "/docs/config/translate" },
+                { text: "OCR设置", link: "/docs/config/ocr" },
                 { text: "语音设置", link: "/docs/config/tts" },
                 { text: "历史记录", link: "/docs/config/history" },
+                { text: "导入导出", link: "/docs/config/backup" },
+                { text: "关于软件", link: "/docs/config/about" },
               ],
             },
             {
@@ -41,6 +44,7 @@ export const zhConfig = {
                   collapsed: true,
                   items: [
                     { text: "★本地翻译★", link: "/docs/api/translate/local" },
+                    { text: "简明英汉词典", link: "/docs/api/translate/ecdict" },
                     { text: "微软翻译", link: "/docs/api/translate/microsoft" },
                     { text: "阿里翻译", link: "/docs/api/translate/ali" },
                     { text: "百度翻译", link: "/docs/api/translate/baidu" },
@@ -52,6 +56,16 @@ export const zhConfig = {
                     { text: "OpenAI", link: "/docs/api/translate/openai" },
                     { text: "Gemini", link: "/docs/api/translate/gemini" },
                     { text: "智谱AI", link: "/docs/api/translate/chatglm" },
+                    { text: "Ollama", link: "/docs/api/translate/ollama" },
+                  ],
+                },
+                {
+                  text: "文本识别",
+                  collapsed: true,
+                  items: [
+                    { text: "PaddleOCR", link: "/docs/api/ocr/paddleocr" },
+                    { text: "百度通用文字识别", link: "/docs/api/ocr/baidu" },
+                    { text: "腾讯通用印刷体识别", link: "/docs/api/ocr/tencent" },
                   ],
                 },
                 {

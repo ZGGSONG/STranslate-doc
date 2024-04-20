@@ -31,6 +31,7 @@ titleTemplate: 使用说明
 | :-- | :-- |
 | `ESC` | 隐藏界面(含取消请求) |
 | `Ctrl` + `,` | 打开设置 |
+| `Ctrl` + `/` | 打开历史记录 |
 | `Ctrl` + `Shift` + `A` | 隐藏/显示输入框 |
 | `Ctrl` + `Shift` + `Q` | 退出程序 |
 | `Ctrl` + `Shift` + `T` | 置顶/取消置顶 |
@@ -60,25 +61,12 @@ titleTemplate: 使用说明
 
 ![update](/img/update.gif)
 
-## 服务
+## 翻译
 
-### !!!本地服务!!!
-
-**★★★ `1.0.6.201` 推出本地服务接口，即开即用，避免多人使用公共接口导致失效问题★★★**
-> 服务页面中添加`STranslate`的服务即可
-
-### 免费接口
-当请求人数较多时，远端接口可能暂时失效，可自行运行翻译接口程序
-1. 下载对应平台可 [执行文件](https://github.com/ZGGSONG/STranslate/releases/tag/0.01)
-2. 下载作者打包的 [Docker镜像](https://hub.docker.com/r/zggsong/translate)
-3. 开源项目 [https://github.com/OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX)
-
-> 针对上述方式仅需在软件`偏好设置`-`服务`- 添加`自建服务`后修改接口地址为对应接口地址即可
-
-### 付费接口
-
-> 国内可访问的公共 `Gemini API`: `https://gemini.vercel.zggsong.com`
-
+- [STranslate服务(内置)](https://github.com/ZGGSONG/deepl-api)
+- 下载对应平台可 [执行文件](https://github.com/ZGGSONG/STranslate/releases/tag/0.01)
+- 下载作者打包的 [Docker镜像](https://hub.docker.com/r/zggsong/translate)
+- 开源项目 [https://github.com/OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX)
 - [简明英汉词典](https://github.com/skywind3000/ECDICT)
 - [微软翻译](https://azure.microsoft.com/zh-cn/products/--services/ai-translator)
 - [阿里翻译](https://www.aliyun.com/product/ai/base_alimt)
@@ -91,13 +79,24 @@ titleTemplate: 使用说明
 - [OpenAI](https://openai.com)
 - [Gemini](https://makersuite.google.com/app/apikey)
 - [智谱AI](https://open.bigmodel.cn/)
-
+- Ollama
+- Linyi
+- DeepSeek
+- Groq
+> 理论上支持所有兼容OpanAI API的AI平台API
+> 国内可访问的公共 `Gemini API`: `https://gemini.vercel.zggsong.com`
 > 简明英汉词典在Github上，下载慢的可以手动点击下载离线资源包([官方-离线资源包](https://github.com/skywind3000/ECDICT/releases/download/1.0.28/ecdict-sqlite-28.zip)、[国内-离线资源包](https://www.123pan.com/s/AxlRjv-u5VmA.html))，放在软件根目录后再次点击下载后即可立即使用
 
 ## TTS
 
-- [离线TTS](https://learn.microsoft.com/zh-cn/dotnet/api/system.speech.synthesis.speechsynthesizer?view=dotnet-plat-ext-8.0)
+- [离线TTS(内置)](https://learn.microsoft.com/zh-cn/dotnet/api/system.speech.synthesis.speechsynthesizer?view=dotnet-plat-ext-8.0)
 - [Azure TTS](https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech)
+
+## OCR
+
+- PaddleOCR(内置)
+- 百度通用文字识别
+- 腾讯通用印刷体识别
 
 ## 感谢
 

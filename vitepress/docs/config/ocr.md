@@ -1,5 +1,5 @@
 ---
 title: STranslate
-titleTemplate: TTS设置
+titleTemplate: OCR设置
 ---
 

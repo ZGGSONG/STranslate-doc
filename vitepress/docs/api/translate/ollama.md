@@ -1,4 +1,4 @@
 ---
 title: STranslate
-titleTemplate: 智普AI
+titleTemplate: ollama
 ---
