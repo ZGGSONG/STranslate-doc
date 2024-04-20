@@ -3,11 +3,7 @@ title: STranslate
 titleTemplate: 阿里翻译
 ---
 
-# 阿里翻译
-
-## 进入官网
-
-[阿里翻译](https://translate.alibaba.com/)
+[官方网站](https://translate.alibaba.com/)
 
 ![](/img/api/ali_01.png)
 
