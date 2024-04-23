@@ -79,12 +79,13 @@ titleTemplate: 使用说明
 - [OpenAI](https://openai.com)
 - [Gemini](https://makersuite.google.com/app/apikey)
 - [智谱AI](https://open.bigmodel.cn/)
-- Ollama
-- Linyi
-- DeepSeek
-- Groq
-> 理论上支持所有兼容OpanAI API的AI平台API
-> 国内可访问的公共 `Gemini API`: `https://gemini.vercel.zggsong.com`
+- [Ollama](https://ollama.com)
+- [Linyi](https://lingyiwanwu.com/)
+- [DeepSeek](https://www.deepseek.com/)
+- [Groq](https://wow.groq.com/)
+- [Kimi](https://www.moonshot.cn/)
+> 理论上支持所有兼容OpanAI API的AI平台API  
+> 国内可访问的公共 `Gemini API`: `https://gemini.vercel.zggsong.com`  
 > 简明英汉词典在Github上，下载慢的可以手动点击下载离线资源包([官方-离线资源包](https://github.com/skywind3000/ECDICT/releases/download/1.0.28/ecdict-sqlite-28.zip)、[国内-离线资源包](https://www.123pan.com/s/AxlRjv-u5VmA.html))，放在软件根目录后再次点击下载后即可立即使用
 
 ## TTS
