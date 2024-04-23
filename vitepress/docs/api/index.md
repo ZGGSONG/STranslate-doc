@@ -27,7 +27,7 @@ titleTemplate: 服务申请
 - [智谱AI](https://open.bigmodel.cn/)
 - [Ollama](https://ollama.com/)
 
-> AI大模型翻译中部分厂商API与OpenAI API接口相同，可直接使用OpenAI进行配置，配置API和模型密钥即可完成，如：[零一万物](https://lingyiwanwu.com/)、[DeepSeek](https://www.deepseek.com/)、[Groq](https://wow.groq.com/) 等等
+> AI大模型翻译中部分厂商API与OpenAI API接口相同，可直接使用OpenAI进行配置，配置API和模型密钥即可完成，如：[零一万物](https://lingyiwanwu.com/)、[DeepSeek](https://www.deepseek.com/)、[Groq](https://wow.groq.com/)、[Kimi](https://www.moonshot.cn/) 等等
 
 ## 文字识别
 

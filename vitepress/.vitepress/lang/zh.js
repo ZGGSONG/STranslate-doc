@@ -26,9 +26,9 @@ export const zhConfig = {
               items: [
                 { text: "常规设置", link: "/docs/config/common" },
                 { text: "热键设置", link: "/docs/config/hotkey" },
-                { text: "翻译设置", link: "/docs/config/translate" },
-                { text: "OCR设置", link: "/docs/config/ocr" },
-                { text: "TTS设置", link: "/docs/config/tts" },
+                { text: "翻译服务", link: "/docs/config/translate" },
+                { text: "OCR服务", link: "/docs/config/ocr" },
+                { text: "语音服务", link: "/docs/config/tts" },
                 { text: "历史记录", link: "/docs/config/history" },
                 { text: "导入导出", link: "/docs/config/backup" },
                 { text: "关于软件", link: "/docs/config/about" },

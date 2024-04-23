@@ -1,4 +1,6 @@
 ---
 title: STranslate
-titleTemplate: TTS设置
+titleTemplate: 语音服务
 ---
+
+![](/img/preference_tts.gif)

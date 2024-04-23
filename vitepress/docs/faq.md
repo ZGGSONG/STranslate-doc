@@ -10,3 +10,5 @@ titleTemplate: FAQ
 3. 问：有没有别的官方接口？答：提`Feature Issue`，有空的话我会优先适配
 4. 问：存在BUG？提[Issue](https://github.com/ZGGSONG/STranslate/issues)，最好带上所运行`软件版本`、`系统版本`、`复现条件`，有条件可以带上`视频`或`GIF`
 5. 问：软件设置不生效？答：软件设置页面基本需要修改完配置，点击保存后生效，部分配置修改完立即生效的也在配置说明处标注了 `[立即生效]`
+6. 问：静默OCR不出现内容？答：静默OCR，将OCR识别的文字写入剪贴板，所以不显示内容[#60](https://github.com/ZGGSONG/STranslate/issues/60)
+7. 问：调用全局快捷键截图时主窗口不隐藏？答：全局快捷键触发截图时不主动操作窗口，仅当主窗口点击截图按钮时主动隐藏主窗口[#61](https://github.com/ZGGSONG/STranslate/issues/61)

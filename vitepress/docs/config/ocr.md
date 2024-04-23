@@ -1,5 +1,6 @@
 ---
 title: STranslate
-titleTemplate: OCR设置
+titleTemplate: OCR服务
 ---
 
+![](/img/preference_ocr.gif)
