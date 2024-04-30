@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Download
-      link: /download
+      link: /en/download
     - theme: alt
       text: Document
-      link: /docs/
+      link: /en/docs/
 
 features:
   - title: Translate
