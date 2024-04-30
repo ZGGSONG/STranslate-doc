@@ -1,0 +1,4 @@
+---
+title: STranslate
+titleTemplate: FAQ
+---

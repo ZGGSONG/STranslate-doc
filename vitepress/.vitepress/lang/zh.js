@@ -3,7 +3,7 @@ export const META_TITLE = "STranslate";
 export const META_DESCRIPTION =
   "WPF 开发的一款即开即用、即用即走的翻译(OCR)工具";
 
-export const zhConfig = {
+export const zh = {
   description: META_DESCRIPTION,
   themeConfig: {
     nav: [

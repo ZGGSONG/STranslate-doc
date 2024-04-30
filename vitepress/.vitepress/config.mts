@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
-import { zhConfig } from "./lang/zh";
+import { zh } from "./lang/zh";
+import { en } from "./lang/en";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,7 +10,6 @@ export default defineConfig({
   themeConfig: {
     logo: "/logo/logo.svg",
     siteTitle: "STranslate",
-    // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: "local",
       options: {
@@ -26,11 +26,28 @@ export default defineConfig({
                 footer: {
                   selectText: "选择",
                   navigateText: "切换",
+                  closeText: "关闭",
                 },
               },
             },
           },
-          en: {},
+          en: {
+            translations: {
+              button: {
+                buttonText: "Search docs",
+                buttonAriaLabel: "Search docs",
+              },
+              modal: {
+                noResultsText: "No recent searches",
+                resetButtonTitle: "Clear the search criteria",
+                footer: {
+                  selectText: "to select",
+                  navigateText: "to navigate",
+                  closeText: "to close",
+                },
+              },
+            },
+          },
         },
       },
     },
@@ -43,12 +60,12 @@ export default defineConfig({
     root: {
       label: "中文",
       lang: "zh",
-      ...zhConfig,
+      ...zh,
     },
-    // en: {
-    //   label: "English",
-    //   lang: "en",
-    //   ...enConfig,
-    // },
+    en: {
+      label: "English",
+      lang: "en",
+      ...en,
+    },
   },
 });
