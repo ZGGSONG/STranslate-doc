@@ -8,6 +8,7 @@
     "preview": "vitepress preview vitepress"
   },
   "dependencies": {
-    "axios": "^1.6.8"
+    "axios": "^1.6.8",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }
