@@ -3,6 +3,7 @@ import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 import { toRefs } from "vue";
 
+//doc:https://github.com/T-miracle/vitepress-plugin-comment-with-giscus
 export default {
     ...DefaultTheme,
     enhanceApp(ctx) {
