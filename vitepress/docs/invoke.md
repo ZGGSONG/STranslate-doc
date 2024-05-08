@@ -41,3 +41,17 @@ titleTemplate: 集成调用
 12. `/open_preference` `GET`: 打开设置界面
 13. `/open_history` `GET`: 打开历史记录页面
 14. `/forbiddenhotkey` `GET`: 禁用/启用全局热键
+
+翻译示例:
+
+```shell
+#参数为要翻译的内容
+curl http://127.0.0.1:50020/translate -d "你好世界"
+```
+
+OCR示例:
+
+```shell
+#参数为文件路径
+curl http://127.0.0.1:50020/ocr -d "D:\\tmp\\stranslate.png"
+```

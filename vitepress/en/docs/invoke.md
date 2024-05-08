@@ -41,3 +41,17 @@ titleTemplate: ExternalCall
 12. `/open_preference` `GET`: Open preference window
 13. `/open_history` `GET`: Open history record page
 14. `/forbiddenhotkey` `GET`: Disable/enable global hotkey
+
+Translation example:
+
+```shell
+#parameter is the content to be translated
+curl http://127.0.0.1:50020/translate -d "Hello world."
+```
+
+OCR Example:
+
+```shell
+#parameter is a file path
+curl http://127.0.0.1:50020/ocr -d "D:\\tmp\\stranslate.png"
+```
