@@ -7,7 +7,20 @@ titleTemplate: 安装卸载
 
 ## 下载
 
+### 直接下载
+
 [前往下载](../download.md)
+
+### Scoop
+
+1. 安装Scoop [Scoop](https://scoop.sh/)
+2. 添加源并安装`STranslate`
+
+```shell
+scoop bucket add hamster https://github.com/ZGGSONG/hamster
+scoop install stranslate
+```
+> 其他官方知名`Bucket`已提交PR, 需要Merge, 后续合并了再更新到该文档中, 目前为本人个人自建`Bucket`
 
 ## 默认方式(推荐)
 
