@@ -9,16 +9,16 @@ export const en = {
       { text: "Home", link: "/en/" },
       { text: "Document", link: "/en/docs/" },
       { text: "Download", link: "/en/download" },
-      { text: "About", link: "/en//about" },
+      { text: "About", link: "/en/about" },
     ],
     sidebar: {
-      "/en//docs/": [
+      "/en/docs/": [
         {
           text: "Document",
-          link: "/en//docs/",
+          link: "/en/docs/",
           items: [
-            { text: "ExternalCall", link: "/en//docs/invoke" },
-            { text: "Install", link: "/en//docs/(un)install" },
+            { text: "ExternalCall", link: "/en/docs/invoke" },
+            { text: "Install", link: "/en/docs/(un)install" },
             {
               text: "Configuration",
               collapsed: true,
