@@ -35,6 +35,7 @@ After opening the software, it will silently run in the background, waiting to b
 | `Ctrl` + `Shift` + `A` | Hide/show input box |
 | `Ctrl` + `Shift` + `Q` | Exit program |
 | `Ctrl` + `Shift` + `T` | Toggle on top |
+| `Ctrl` + `Shift` + ` R` | Switch theme |
 | `Ctrl` + `ScrollUp` | Zoom in |
 | `Ctrl` + `ScrollDown` | Zoom out |
 | `Ctrl` + `**` | Reset default font size |
@@ -57,7 +58,8 @@ After opening the software, it will silently run in the background, waiting to b
 ## Upgrade Function
 
 > Files are on GitHub, need to use a proxy, otherwise, it will be very slow！！！  
-> In addition, the downloaded file does not contain the `Runtime` version. If you need a self-contained version, go to the [Release](https://github.com/ZGGSONG/STranslate/releases) page to download a package with the `self contained` label.
+> In addition, the downloaded file does not contain the `Runtime` version.
+> If you don't want to install `. NET8 Runtime` Please go to the [Release](https://github.com/ZGGSONG/STranslate/releases) page to download the software compression package marked with `self contained`
 
 ![update](/img/update.gif)
 
@@ -84,6 +86,7 @@ After opening the software, it will silently run in the background, waiting to b
 - [DeepSeek](https://www.deepseek.com/)
 - [Groq](https://wow.groq.com/)
 - [Kimi](https://www.moonshot.cn/)
+- [baidu qianfan](https://qianfan.cloud.baidu.com/)
 > Theoretically supports all AI platforms compatible with OpenAI API  
 > Domestic accessible public `Gemini API`: `https://gemini.vercel.zggsong.com`  
 > Simplified English Dictionary is on GitHub, slow to download, can manually click to download offline resource package ([official-offline resource package](https://github.com/skywind3000/ECDICT/releases/download/1.0.28/ecdict-sqlite-28.zip), [domestic-offline resource package](https://www.123pan.com/s/AxlRjv-u5VmA.html)), put it in the software root directory and click to download again to use immediately
@@ -107,7 +110,6 @@ After opening the software, it will silently run in the background, waiting to b
 - Thanks to [WpfTool](https://github.com/NPCDW/WpfTool) for screenshot functionality
 - Thanks to [Tai](https://github.com/Planshit/Tai) for upgrade functionality
 - Thanks to [LxgwWenKai](https://github.com/lxgw/LxgwWenKai) for open-source font
-- Thanks to ChatGPT
 - Thanks to [pot-desktop](https://pot-app.com/) for reference prompt design
 
 

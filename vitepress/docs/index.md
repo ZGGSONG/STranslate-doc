@@ -35,6 +35,7 @@ titleTemplate: 使用说明
 | `Ctrl` + `Shift` + `A` | 隐藏/显示输入框 |
 | `Ctrl` + `Shift` + `Q` | 退出程序 |
 | `Ctrl` + `Shift` + `T` | 置顶/取消置顶 |
+| `Ctrl` + `Shift` + `R` | 切换主题 |
 | `Ctrl` + `滚轮上` | 放大文字 |
 | `Ctrl` + `滚轮下` | 缩小文字 |
 | `Ctrl` + **`** | 恢复默认文字大小 |
@@ -56,8 +57,9 @@ titleTemplate: 使用说明
 
 ## 升级功能
 
-> 文件在github上，需要挂代理，否则很慢！！！  
-> 此外，升级方式所下载的为不带有`Runtime`的版本，如需带有`Runtime`版本，前往 [Release](https://github.com/ZGGSONG/STranslate/releases) 页面下载带有 `self contained` 标记的软件压缩包
+> 文件在github上，需要挂代理，否则很慢！！！
+> 此外，升级方式所下载的为不带有`Runtime`的版本
+> 如果不想安装`.NET8 Runtime`请前往 [Release](https://github.com/ZGGSONG/STranslate/releases) 页面下载带有 `self contained` 标记的软件压缩包
 
 ![update](/img/update.gif)
 
@@ -84,6 +86,7 @@ titleTemplate: 使用说明
 - [DeepSeek](https://www.deepseek.com/)
 - [Groq](https://wow.groq.com/)
 - [Kimi](https://www.moonshot.cn/)
+- [百度千帆平台](https://qianfan.cloud.baidu.com/)
 > 理论上支持所有兼容OpanAI API的AI平台API  
 > 国内可访问的公共 `Gemini API`: `https://gemini.vercel.zggsong.com`  
 > 简明英汉词典在Github上，下载慢的可以手动点击下载离线资源包([官方-离线资源包](https://github.com/skywind3000/ECDICT/releases/download/1.0.28/ecdict-sqlite-28.zip)、[国内-离线资源包](https://www.123pan.com/s/AxlRjv-u5VmA.html))，放在软件根目录后再次点击下载后即可立即使用
@@ -107,7 +110,6 @@ titleTemplate: 使用说明
 - 感谢 [WpfTool](https://github.com/NPCDW/WpfTool) 截图功能
 - 感谢 [Tai](https://github.com/Planshit/Tai) 升级功能
 - 感谢 [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 开源字体
-- 感谢 ChatGPT
 - 感谢 [pot-desktop](https://pot-app.com/) 参考prompt设计
 
 
