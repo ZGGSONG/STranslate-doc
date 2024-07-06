@@ -7,9 +7,31 @@ titleTemplate: 集成调用
 
 > 类似于`有道翻译官`桌面软件的使用体验
 
-![snipdo](/img/snipdo.gif)
+<!-- ![snipdo](/img/snipdo.gif) -->
 
 安装 `SnipDo` [点击下载](https://apps.microsoft.com/detail/9npz2tvkjvt7?hl=zh-cn&gl=CN)
+
+## 手动创建插件
+
+第二步填入下列内容
+> 默认为 `50020` 如修改配置需更新
+
+```shell
+$encode_text = [System.Text.Encoding]::UTF8.GetBytes($PLAIN_TEXT)
+
+curl 127.0.0.1:50020/translate -Method POST -Body $encode_text -UseBasicParsing
+```
+
+![1](/img/snipdo_1.png)
+
+![2](/img/snipdo_2.png)
+
+![3](/img/snipdo_3.png)
+
+![3_1](/img/snipdo_3_1.png)
+
+![4](/img/snipdo_4.png)
+
 
 # Api调用
 
