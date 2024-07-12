@@ -9,7 +9,7 @@ editLink: false
 import { ref,computed } from 'vue'
 import axios from 'axios'
 
-const version = '1.1.4.523'
+const version = '1.1.6.704'
 
 const ghproxy = 'https://mirror.ghproxy.com/'
 
@@ -44,21 +44,8 @@ const download = (type, param)=>{
             Win x64 (Github)
             <Badge type="warning" text=".zip" />
         </button>
-        <button :class="$style.button" @click="download('0', 'noruntime')">
-            Win x64 noruntime(Github)
-            <Badge type="warning" text=".zip" />
-        </button>
-    </div>
-</div>
-
-<div :class="$style.wrap">
-    <div :class="$style.download">
         <button :class="$style.button" @click="download('1', 'runtime')">
             Win x64 (Github_ghproxy)
-            <Badge type="warning" text=".zip" />
-        </button>
-        <button :class="$style.button" @click="download('1', 'noruntime')">
-            Win x64 noruntime(Github_ghproxy)
             <Badge type="warning" text=".zip" />
         </button>
     </div>
