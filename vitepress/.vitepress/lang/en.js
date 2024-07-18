@@ -26,6 +26,7 @@ export const en = {
                 { text: "Common", link: "/en/docs/config/common" },
                 { text: "Hotkey", link: "/en/docs/config/hotkey" },
                 { text: "Translate", link: "/en/docs/config/translate" },
+                { text: "Replace", link: "/docs/config/replace" },
                 { text: "OCR", link: "/en/docs/config/ocr" },
                 { text: "TTS", link: "/en/docs/config/tts" },
                 { text: "History", link: "/en/docs/config/history" },
@@ -56,6 +57,7 @@ export const en = {
                     { text: "Gemini", link: "/en/docs/api/translate/gemini" },
                     { text: "ChatGLM", link: "/en/docs/api/translate/chatglm" },
                     { text: "Ollama", link: "/en/docs/api/translate/ollama" },
+                    { text: "DeepL", link: "/en/docs/api/translate/deepl" },
                   ],
                 },
                 {
@@ -65,6 +67,7 @@ export const en = {
                     { text: "PaddleOCR", link: "/en/docs/api/ocr/paddleocr" },
                     { text: "BaiduOCR", link: "/en/docs/api/ocr/baidu" },
                     { text: "TencentOCR", link: "/en/docs/api/ocr/tencent" },
+                    { text: "VolcengineOCR", link: "/en/docs/api/ocr/volcengine" },
                   ],
                 },
                 {

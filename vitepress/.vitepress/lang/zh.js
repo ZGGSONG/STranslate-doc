@@ -27,6 +27,7 @@ export const zh = {
                 { text: "常规设置", link: "/docs/config/common" },
                 { text: "热键设置", link: "/docs/config/hotkey" },
                 { text: "翻译服务", link: "/docs/config/translate" },
+                { text: "替换翻译", link: "/docs/config/replace" },
                 { text: "OCR服务", link: "/docs/config/ocr" },
                 { text: "语音服务", link: "/docs/config/tts" },
                 { text: "历史记录", link: "/docs/config/history" },
@@ -57,6 +58,7 @@ export const zh = {
                     { text: "Gemini", link: "/docs/api/translate/gemini" },
                     { text: "智谱AI", link: "/docs/api/translate/chatglm" },
                     { text: "Ollama", link: "/docs/api/translate/ollama" },
+                    { text: "DeepL", link: "/docs/api/translate/deepl" },
                   ],
                 },
                 {
@@ -66,6 +68,7 @@ export const zh = {
                     { text: "PaddleOCR", link: "/docs/api/ocr/paddleocr" },
                     { text: "百度通用文字识别", link: "/docs/api/ocr/baidu" },
                     { text: "腾讯通用印刷体识别", link: "/docs/api/ocr/tencent" },
+                    { text: "火山文字识别", link: "/docs/api/ocr/volcengine" },
                   ],
                 },
                 {
