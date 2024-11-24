@@ -15,6 +15,8 @@ titleTemplate: 使用说明
 
 ## 全局快捷键
 
+> 更多热键请查看软件内设置-热键设置有更详细介绍
+
 | 快捷键 | 功能 | 演示 |
 | :-- | :-- | :-- |
 | `Alt` + `A` | 打开软件界面，输入内容按`回车`翻译 | ![](/img/input.gif) |
@@ -27,6 +29,9 @@ titleTemplate: 使用说明
 | `Alt` + `Shift` + `F` | 静默OCR(OCR后自动复制到剪贴板) | ![](/img/silentocr.gif) |
 
 ## 软件内快捷键
+
+> 更多热键请查看软件内设置-热键设置有更详细介绍
+
 | 快捷键 | 功能 |
 | :-- | :-- |
 | `ESC` | 隐藏界面(含取消请求) |
@@ -95,12 +100,17 @@ titleTemplate: 使用说明
 
 - [离线TTS(内置)](https://learn.microsoft.com/zh-cn/dotnet/api/system.speech.synthesis.speechsynthesizer?view=dotnet-plat-ext-8.0)
 - [Azure TTS](https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech)
+- EdgeTTS
+- Lingva
 
 ## OCR
 
+- 微信OCR
 - PaddleOCR(内置)
 - 百度通用文字识别
 - 腾讯通用印刷体识别
+- OpenAIOCR
+- GoogleOCR
 
 ## 感谢
 

@@ -33,7 +33,7 @@ scoop install extras/stranslate
 
 ## 独立安装
 
-下载`STranslate_`+版本号+`_win-x64_self_contained`的压缩包，无需.net runtime即可直接运行，但是此方式安装不支持软件一键升级功能，推荐使用上一种安装方式
+~~下载`STranslate_`+版本号+`_win-x64_self_contained`的压缩包，无需.net runtime即可直接运行，但是此方式安装不支持软件一键升级功能，推荐使用上一种安装方式~~
 
 # 卸载
 
