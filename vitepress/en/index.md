@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "STranslate"
-  text: "A ready-to-use, ready-to-go translation ocr tool"
+  text: "A ready-to-go translation、ocr tool"
   tagline: 
   image:
     src: /logo/logo.svg
