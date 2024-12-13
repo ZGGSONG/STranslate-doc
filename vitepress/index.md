@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "STranslate"
-  text: "即开即用、即用即走的翻译(OCR)工具"
+  text: "一款即用即走的翻译、OCR工具"
   tagline: 
   image:
     src: /logo/logo.svg
