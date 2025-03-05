@@ -11,7 +11,7 @@ import axios from 'axios'
 
 const version = '1.3.2.305'
 
-const ghproxy = 'https://mirror.ghproxy.com/'
+const ghproxy = 'https://gh-proxy.com/'
 
 const download = (type, param)=>{
     var proxy = ''
