@@ -3,9 +3,9 @@ title: STranslate
 titleTemplate: 推广内容
 ---
 
-# 推广内容
+# DeerAPI
 
-这是我的[推广链接](https://api.deerapi.com/register?aff=j5dj)，注册即送试用额度，该平台经过我以及多位用户的测试，稳定性、速度均属上乘，大家有需求的可以注册使用，起码比自己随便找的稳定，也能支持软件发展，感谢🙏
+`DeerAPI` 是一个一站式大模型API聚合平台，该平台经过我以及多位用户的测试，稳定性、速度均属上乘，大家有需求的可以[注册使用](https://api.deerapi.com/register?aff=j5dj)，起码比自己随便找的稳定，也能支持软件发展，感谢🙏
 
 ## 使用方式
 

@@ -3,9 +3,9 @@ title: STranslate
 titleTemplate: Promotion Content
 ---
 
-# Promotion Content
+# DeerAPI
 
-This is my [promotion link](https://api.deerapi.com/register?aff=j5dj). Register to receive trial credits. This platform has been tested by me and many other users, with excellent stability and speed. If you have such needs, you can register and use it. It's definitely more stable than randomly found alternatives, and it also supports the development of the software. Thank you 🙏
+`DeerAPI` is a one-stop large model API aggregation platform. After testing by myself and many users, its stability and speed are excellent. If you have a need, you can [register and use it](https://api.deerapi.com/register?aff=j5dj). It's at least more stable than finding one randomly on your own, and it also supports software development. Thank you 🙏
 
 ## How to Use
 
