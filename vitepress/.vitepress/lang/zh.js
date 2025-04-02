@@ -7,6 +7,7 @@ export const zh = {
   description: META_DESCRIPTION,
   themeConfig: {
     nav: [
+      { text: "DeerAPI", link: "/promotion" },
       { text: "首页", link: "/" },
       { text: "使用说明", link: "/docs/" },
       { text: "下载", link: "/download" },
@@ -65,6 +66,7 @@ export const zh = {
                   text: "文本识别",
                   collapsed: true,
                   items: [
+                    { text: "WeChatOCR", link: "/docs/api/ocr/wechatocr" },
                     { text: "PaddleOCR", link: "/docs/api/ocr/paddleocr" },
                     { text: "百度通用文字识别", link: "/docs/api/ocr/baidu" },
                     { text: "腾讯通用印刷体识别", link: "/docs/api/ocr/tencent" },
