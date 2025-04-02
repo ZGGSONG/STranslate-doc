@@ -6,7 +6,7 @@ export const en = {
   description: META_DESCRIPTION,
   themeConfig: {
     nav: [
-      { text: "DeerAPI", link: "/en/promotion" },
+      { text: "🛠️ DeerAPI", link: "/en/promotion" },
       { text: "Home", link: "/en/" },
       { text: "Document", link: "/en/docs/" },
       { text: "Download", link: "/en/download" },

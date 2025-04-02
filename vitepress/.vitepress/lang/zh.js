@@ -7,7 +7,7 @@ export const zh = {
   description: META_DESCRIPTION,
   themeConfig: {
     nav: [
-      { text: "DeerAPI", link: "/promotion" },
+      { text: "🛠️ DeerAPI", link: "/promotion" },
       { text: "首页", link: "/" },
       { text: "使用说明", link: "/docs/" },
       { text: "下载", link: "/download" },
