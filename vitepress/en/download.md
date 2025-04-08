@@ -9,7 +9,7 @@ editLink: false
 import { ref,computed } from 'vue'
 import axios from 'axios'
 
-const version = '1.5.1.407'
+const version = '1.5.2.408'
 
 const ghproxy = 'https://gh-proxy.com/'
 
